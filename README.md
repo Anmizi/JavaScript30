@@ -12,3 +12,11 @@ JavaScript30项目练习代码
 [transitionend事件](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/transitionend_event)
 
 [audio标签的事件和属性](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/audio)
+
+
+
+### 第11天练习知识点
+
+[HTML 音频/视频 DOM 参考手册](https://www.runoob.com/tags/ref-av-dom.html)
+
+[HTMLElement.offsetWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetWidth)
