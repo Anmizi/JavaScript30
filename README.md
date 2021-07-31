@@ -20,3 +20,17 @@ JavaScript30项目练习代码
 [HTML 音频/视频 DOM 参考手册](https://www.runoob.com/tags/ref-av-dom.html)
 
 [HTMLElement.offsetWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetWidth)
+
+
+
+### 第12天练习知识点
+
+[数组方法Splice的使用](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+```javascript
+array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+```
+
+注意：start参数为负值且大于数组长度时，表示开始位置为0
+
+deleteCount参数为0或负数，则不移除元素

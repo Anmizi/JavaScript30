@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Key Detection</title>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+
+<body>
+    <script>
+    //按键检测
+    //键盘输入指定字符串，触发动画
+
+    //用于存储键盘按下字符
+    const pressed = [];
+    //密码，当键盘敲入字符等于该值时，触发动画
+    const secretCode = 'wesbos';
+    //监听键盘keyup事件
+    window.addEventListener('keyup', function(e) {
+        console.log(e.key);
+        // 存储字符
+        pressed.push(e.key);
+        // 如果pressed的元素个数大于secretCode的个数，删除pressed的0号元素
+        pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+        //如果pressed数组转为字符串等于SecretCode,触发动画
+        if (pressed.join('').includes(secretCode)) {
+            console.log('Ding Ding');
+            cornify_add();
+        }
+        console.log(pressed);
+    })
+    </script>
+</body>
+
+</html>
