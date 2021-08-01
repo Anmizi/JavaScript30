@@ -34,3 +34,19 @@ array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 注意：start参数为负值且大于数组长度时，表示开始位置为0
 
 deleteCount参数为0或负数，则不移除元素
+
+
+
+### 第13天练习知识点
+
+`Window.scrollY`
+
+返回文档在垂直方向已经滚动的像素值
+
+`HTMLELement.offsetTop`
+
+为只读属性，它返回当前元素相对于其 [`offsetParent`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetParent) 元素的顶部内边距的距离。
+
+`Window.innerHeight`
+
+浏览器窗口的视口（viewport）高度（以像素为单位）；如果有水平滚动条，也包括滚动条高度。(只读属性)
