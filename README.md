@@ -50,3 +50,16 @@ deleteCount参数为0或负数，则不移除元素
 `Window.innerHeight`
 
 浏览器窗口的视口（viewport）高度（以像素为单位）；如果有水平滚动条，也包括滚动条高度。(只读属性)
+
+
+
+### 第14天练习知识点
+
+深拷贝和浅拷贝知识(引用数据类型)
+
+[`Object.assign()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)方法 不可用于实现深拷贝
+
+`JSON.parse(JSON.stringify())`可以实现对象的深拷贝
+
+ES6 展开运算符
+
